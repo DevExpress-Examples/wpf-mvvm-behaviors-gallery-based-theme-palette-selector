@@ -6,7 +6,7 @@
         xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
         xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
         Title="MainWindow" Height="350" Width="525" 
-        WindowKind="Ribbon">
+        WindowKind="Ribbon" >
     <Grid>
         <dxr:RibbonControl x:Name="RibbonControl" DockPanel.Dock="Top" RibbonStyle="Office2019">
             <dxr:RibbonDefaultPageCategory>
