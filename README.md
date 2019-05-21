@@ -3,7 +3,7 @@
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 <!-- default file list end -->
-# How to implement a theme selector based on a bar item
+# How to Implement a Theme Palette Selector Based on a Bar Item
 
 
 <p>This example demonstrates how to implement the theme palette selector functionality in WPF applications. 
