@@ -1,0 +1,31 @@
+<dx:ThemedWindow
+        x:Class="ThemeHelperWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+        Title="MainWindow" Height="350" Width="525" 
+        WindowKind="Ribbon" >
+    <Grid>
+        <dxr:RibbonControl x:Name="RibbonControl" DockPanel.Dock="Top" RibbonStyle="Office2019">
+            <dxr:RibbonDefaultPageCategory>
+                <dxr:RibbonPage Caption="Home"/>
+                <dxr:RibbonPage Caption="Settings" IsSelected="True">
+                    <dxr:RibbonPageGroup Caption="Themes">
+                        <dxr:RibbonGalleryBarItem>
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxr:RibbonGalleryItemThemeSelectorBehavior ShowTouchThemes="False"/>
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxr:RibbonGalleryBarItem>
+                        <dxr:RibbonGalleryBarItem>
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxr:RibbonGalleryItemThemePaletteSelectorBehavior />
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxr:RibbonGalleryBarItem>
+                    </dxr:RibbonPageGroup>
+                </dxr:RibbonPage>
+            </dxr:RibbonDefaultPageCategory>
+        </dxr:RibbonControl>
+    </Grid>
+</dx:ThemedWindow>
