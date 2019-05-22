@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525" 
         WindowKind="Ribbon" >
     <Grid>
-        <dxr:RibbonControl x:Name="RibbonControl" DockPanel.Dock="Top" RibbonStyle="Office2019">
+        <dxr:RibbonControl x:Name="RibbonControl" DockPanel.Dock="Top">
             <dxr:RibbonDefaultPageCategory>
                 <dxr:RibbonPage Caption="Home"/>
                 <dxr:RibbonPage Caption="Settings" IsSelected="True">
