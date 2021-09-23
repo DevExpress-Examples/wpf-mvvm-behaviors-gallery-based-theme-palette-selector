@@ -3,22 +3,23 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828699)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+#  WPF MVVM Behaviors - Display a Theme Palette Selector Based on a Ribbon Gallery
+
+The [RibbonGalleryItemThemePaletteSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryItemThemePaletteSelectorBehavior) populates the associated @DevExpress.Xpf.Ribbon.RibbonGalleryBarItem with the available palettes and allows you to choose the application's palette.
+
+Attach the behavior to a [RibbonGalleryBarItem](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryBarItem) in a [RibbonControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl) to use it.
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 <!-- default file list end -->
-# How to Implement a Theme Palette Selector Based on a Bar Item
 
+## Documentation
 
-<p>This example demonstrates how to implement the theme palette selector functionality in WPF applications. 
-The <strong>RibbonGalleryItemThemePaletteSelectorBehavior</strong> is behavior that automatically populates the associated <strong>RibbonGalleryBarItem</strong> with all available predefined palettes. Use this behavior to choose a palette applied to your application.</p>
+- [RibbonGalleryItemThemePaletteSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryItemThemePaletteSelectorBehavior)
+- [Behaviors](https://docs.devexpress.com/WPF/17442/mvvm-framework/behaviors)
 
-```xaml
-<dxr:RibbonGalleryBarItem ... >
-    <dxmvvm:Interaction.Behaviors>
-        <dxr:RibbonGalleryItemThemePaletteSelectorBehavior />
-    </dxmvvm:Interaction.Behaviors>
-</dxr:RibbonGalleryBarItem>
-```
-<br/>
+## More Examples
+- [WPF MVVM Behaviors - Display Theme Selectors Based on BarItems and Hide Themes from List](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-barItems-based-theme-selectors)
