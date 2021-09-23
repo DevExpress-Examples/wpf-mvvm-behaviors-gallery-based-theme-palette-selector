@@ -13,6 +13,14 @@ Attach the behavior to a [RibbonGalleryBarItem](https://docs.devexpress.com/WPF/
 ![DevExpress WPF MVVM Behaviors | RibbonGalleryItemThemePaletteSelectorBehavior](https://user-images.githubusercontent.com/12169834/134533357-1bd6f6a7-04da-43b8-ad43-813182a8428a.png)
 
 
+## Persist Theme Selection between Application Runs
+
+Use can save the application's theme to the configuration file and restore it on the next application run.
+
+To save an applied theme, use the static [ApplicationThemeHelper.SaveApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.SaveApplicationThemeName) method to save the theme name specified in the static [ApplicationThemeHelper.ApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName) property.
+
+Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.UpdateApplicationThemeName) method to retrieve the theme name from the configuration file.
+
 <!-- default file list -->
 ## Files to Look At
 
