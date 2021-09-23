@@ -10,6 +10,9 @@ The [RibbonGalleryItemThemePaletteSelectorBehavior](https://docs.devexpress.com/
 
 Attach the behavior to a [RibbonGalleryBarItem](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryBarItem) in a [RibbonControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl) to use it.
 
+![DevExpress WPF MVVM Behaviors | RibbonGalleryItemThemePaletteSelectorBehavior](https://user-images.githubusercontent.com/12169834/134533357-1bd6f6a7-04da-43b8-ad43-813182a8428a.png)
+
+
 <!-- default file list -->
 ## Files to Look At
 
