@@ -8,7 +8,7 @@ Namespace ThemeHelperWPF
         Inherits Application
 
         Public Sub New()
-            Theme.RegisterPredefinedPaletteThemes()
+            Call Theme.RegisterPredefinedPaletteThemes()
             Dim customPalette = New ThemePalette("CustomPalette")
             customPalette.SetColor("Foreground", Colors.Red)
             Dim customTheme = Theme.CreateTheme(customPalette, Theme.Office2016ColorfulSE)
